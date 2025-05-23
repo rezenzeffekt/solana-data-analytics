@@ -1,9 +1,13 @@
 # Solana Data Analytics
 ## **Requirements**
 
-Virtual Environment with Python 3.11 
+Virtual Environment with Python 3.11 for Jupyter Notebook (.ipynb)
 
 [How to create virtual environments for python with conda](https://numdifftools.readthedocs.io/en/stable/how-to/create_virtual_env_with_conda.html)
+
+Flipside account with the free plan or higher for SQL query (.sql)
+
+[Flipside Studio](https://flipsidecrypto.xyz/studio/)
 
 ## Sharky Loan Offers 
 Sharky.fi is a Solana-based lending and borrowing protocol that uses NFTs as collateral. The Jupyter notebook files in this repository procure pending offered loans by querying live blockchain data. 
