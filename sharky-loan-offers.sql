@@ -44,7 +44,7 @@ from solana.core.fact_sol_balances
 where account_address in (select txs.escrow_token from txs)
 group by 1
 )
-select amount, concat(substring(lender,1,3)||'___'||substring(lender,42,44)) as user_readable, datetime
+select amount, concat(substring(lender,1,3)||'___'||substring(lender,42,44)) as user_readable, substring(cast(datetime as varchar),1,16) as datetime
 from txs
 join bal on bal.account_address = txs.escrow_token
 where amount > 0.01
