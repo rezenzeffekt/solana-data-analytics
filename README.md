@@ -5,7 +5,7 @@ Virtual Environment with Python 3.11 for Jupyter Notebook (.ipynb)
 
 [How to create virtual environments for python with conda](https://numdifftools.readthedocs.io/en/stable/how-to/create_virtual_env_with_conda.html)
 
-Flipside account with the free plan or higher for SQL query (.sql)
+Flipside account with the free plan or higher for SQL query (.sql), there is usually a latency of 1-2 hours for the SQL database.
 
 [Flipside Studio](https://flipsidecrypto.xyz/studio/)
 
