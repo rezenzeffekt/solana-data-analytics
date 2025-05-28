@@ -15,4 +15,4 @@ def open_list(input:list,file_path:str):
             x = line.replace('\n','')
             input.append(x)      
     #print(input)
-    #print('list imported from {file_path}')  
+    #print(f'list imported from {file_path}')  
