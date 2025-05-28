@@ -1,18 +1,12 @@
 # functions
-def write_list(input:list,output_path:str):
+def write_list(input_list:list,filename:str):
     """
-    saves a list (input) to a txt file (output_path), confirmation output currently commented out, no return values 
+    saves a list (input_list) to a txt file (filename), no return values 
     """    
-    with open(output_path, 'w') as content:
-        content.writelines('\n'.join(input))
-    #print(f'list exported to {output_path}')    
-def open_list(input:list,file_path:str):
+    open(filename,'w').writelines('\n'.join(input_list))  
+def open_list(filename:str,output_list:list):
     """
-    opens a txt file from path (file_path) as a pre-defined list name (input), list & confirmation output currently commented out, appended list is returned  
+    opens a txt file from path (filename) as a pre-defined list name (output_list), appended list is returned 
     """    
-    with open(file_path, 'r') as content:
-        for line in content:
-            x = line.replace('\n','')
-            input.append(x)      
-    #print(input)
-    #print(f'list imported from {file_path}')  
+    for line in open(filename, 'r'):
+        output_list.append(line.replace('\n',''))  
