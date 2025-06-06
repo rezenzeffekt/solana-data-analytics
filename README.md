@@ -31,3 +31,11 @@ Sharky.fi is a Solana-based lending and borrowing protocol that uses NFTs as col
 **Offered loans for the 'Leveraged Labs' collection with a 7 day duration compared to the results of 'sharky-loan-offers.sql' in Flipside Studio**
 
 ![Results Comparison for 'sharky-loan-offers.sql'](img/sharky-loan-offers-sql.png)
+
+<br>
+
+**Offered loans for the 'Sr Manzano' collection with a 7 day duration compared to the results in 'sharky-loan-offers-3.ipynb'**
+
+![Results Comparison for 'sharky-loan-offers.ipynb'](img/sharky-loan-offers-3.png)
+
+<br>
