@@ -39,3 +39,9 @@ Sharky.fi is a Solana-based lending and borrowing protocol that uses NFTs as col
 ![Results Comparison for 'sharky-loan-offers.ipynb'](img/sharky-loan-offers-3.png)
 
 <br>
+
+**Loans of the 'Sr Manzano' collection expiring within 36 hours compared to the results in 'sharky-loans-1.ipynb'**
+
+![Results Comparison for 'sharky-loan-offers.ipynb'](img/sharky-loans-1.png)
+
+<br>
