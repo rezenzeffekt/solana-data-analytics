@@ -16,7 +16,7 @@ Sharky.fi is a Solana-based lending and borrowing protocol that uses NFTs as col
 
 <br>
 
-**Offered loans for the 'Play Solana NFT' collection compared to the results in 'sharky-loan-offers.ipynb'**
+**Offered loans for the 'Play Solana NFT' collection compared to the results in 'sharky-loan-offers-1.ipynb'**
 
 ![Results Comparison for 'sharky-loan-offers.ipynb'](img/sharky-loan-offers.png)
 
